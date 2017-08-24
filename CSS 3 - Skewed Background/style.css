@@ -1,0 +1,58 @@
+/*
+* Developer: Louie Rosero
+* Date: August 25, 2017
+* Credit Tutorial to: Online Tutorial (https://www.youtube.com/watch?v=v2Jw9pa6sFo)
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #262626;
+	font-family: Arial, sans-serif;
+}
+
+.skewedBox {
+	background: #edff57;
+	padding: 100px 0;
+	transform: skew(0deg, -10deg) translateY(-120px);
+}
+
+.skewedBox .container {
+	padding: 150px 200px;
+	transform: skew(0deg, 10deg);
+
+}
+
+.skewedBox .container h1 {
+	margin: 0;
+	padding: 20px 0;
+	font-size: 3em;
+}
+
+.skewedBox .container p {
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	width: 80%; 
+}
+
+.skewedBox2 {
+	padding: 0 200px 150px;
+	color: #fff;
+	text-align: right;
+}
+
+.skewedBox2 h1{
+	margin: 0;
+	padding: 20px 0;
+	font-size: 3em;
+}
+
+.skewedBox2 p {
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	width: 100%; 
+}
