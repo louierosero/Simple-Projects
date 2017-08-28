@@ -1,0 +1,78 @@
+/*
+* Developer: Louie Rosero
+* Date: August 28, 2017
+* Source: Traversy Media
+* Link: (https://www.youtube.com/watch?v=7rJ5rhdVvOo&index=19&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU)
+*/
+
+body {
+	font-family: "Tahoma", sans-serif;
+	background: #333;
+	color: #fff;
+}
+
+h2 {
+	text-align: center;
+}
+
+.col {
+	float: left;
+	width: 33.3%;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+.col ul.price-box {
+	background: #fff;
+	color: #555;
+	list-style-type: none;
+	border: 1px solid #555;
+	margin: 0;
+	padding: 0;
+	transition: 0.3s;
+}
+
+.col ul.price-box:hover, .col ul.price-box.best{
+	box-shadow: 0 10px 15px 0 #000;
+}
+
+.col ul.price-box .header {
+	background-color: #111;
+	color: #fff;
+	font-size: 25px;
+}
+
+.col ul.price-box .header-green {
+	background-color: #4CAf50;
+}
+
+.col ul.price-box li {
+	padding: 20px;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+}
+
+.col ul.price-box li.emphasis {
+	background: #f4f4f4;
+	font-size: 20px;
+}
+
+.col ul.price-box li.emphasis a.button {
+	background: #4CAf50;
+	border: none;
+	color: #fff;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.col ul.price-box li.emphasis a.button:hover {
+	background: #2aca30;
+}
+
+@media(max-width:700px){
+	.col {
+		width: 100%;
+	}
+}
