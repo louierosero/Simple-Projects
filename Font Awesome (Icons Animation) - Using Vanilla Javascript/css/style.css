@@ -1,0 +1,27 @@
+/*
+* Developer: Louie Rosero
+* Date: August 28, 2017
+* Source: Traversy Media
+* Link: https://www.youtube.com/watch?v=XP-MRCUPZao
+*/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 643px;
+	margin: auto;
+}
+
+.container #battery {
+	font-size: 500px;
+}
+
+.container p {
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+}

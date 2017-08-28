@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<title>Font Awesome (Icons Animation)</title>
+</head>
+<body>
+	<div class="container">
+		<div id="battery" class="fa"></div>
+		<p>Battery Charging Animation</p>
+	</div>
+	
+	<script type="text/javascript">
+		
+		// Charge Battery Animation
+		function chargeBattery(){
+			var battery = document.getElementById('battery');
+			battery.innerHTML = "&#xf244;";
+			
+			setTimeout(function() { battery.innerHTML = "&#xf243;"; }, 1000);
+			setTimeout(function() {	battery.innerHTML = "&#xf242;";	}, 2000);
+			setTimeout(function() {	battery.innerHTML = "&#xf241;";	}, 3000);
+			setTimeout(function() {	battery.innerHTML = "&#xf240;";	}, 4000);
+		}
+		
+		// Call chargeBattery Functions
+		chargeBattery();
+		
+		// Animate Every 5 Seconds
+		setInterval(chargeBattery, 5000);
+		
+	</script>
+</body>
+</html>
